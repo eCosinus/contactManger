@@ -22,8 +22,8 @@ app.controller('listCtrl', ['$scope',function($scope){
     
 }]);
 app.controller('ContactCtrl', ['$scope', function($scope) {
-    $scope.contact = {};
-    $scope.contact = [{
+    $scope.contacts= {};
+    $scope.contacts = [{
         name: 'Fabien',
         groupe: 'Groupe1',
         adresse: 'Rennes, France',
